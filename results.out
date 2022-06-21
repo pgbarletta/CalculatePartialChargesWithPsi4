@@ -1,0 +1,55 @@
+Electrostatic potential parameters
+    van der Waals radii (Angstrom):
+                                      N   1.500
+                                      C   1.500
+                                      O   1.400
+                                      H   1.200
+    VDW scale factors:                1.40  1.60  1.80  2.00
+    VDW point density:                1.000
+    ESP method:                       b3lyp
+    ESP basis set:                    3-21g
+
+Grid information (see 1_default_grid.dat in Angstrom)
+    Number of grid points:            1058
+
+Quantum electrostatic potential (see 1_default_grid_esp.dat)
+
+Constraints
+
+Restraint
+    Hyperbolic restraint to a charge of zero
+    Hydrogen atoms are not restrained
+    resp_a:                           0.0005
+    resp_b:                           0.1000
+
+Fit
+
+Electrostatic Potential Charges
+   Center  Symbol       ESP      RESP
+      1    N      -1.00144458 -0.96285155
+      2    C       0.00744592 -0.00158568
+      3    O      -0.65138866 -0.62876359
+      4    C      -0.01420445 -0.00822742
+      5    O      -0.59702543 -0.57962622
+      6    C      -0.09629108 -0.04363527
+      7    C      -0.07662717 -0.00754727
+      8    C       0.08005505 -0.00056200
+      9    C      -0.26104843 -0.11554118
+     10    C       0.20696148  0.08225198
+     11    C       0.73369100  0.68495855
+     12    H       0.05726214  0.03747500
+     13    H       0.00172817 -0.01738232
+     14    H       0.00151742 -0.01066355
+     15    H       0.02978453  0.03114177
+     16    H       0.09134139  0.05467885
+     17    H       0.06112977  0.02164848
+     18    H       0.00926847  0.02473632
+     19    H       0.01488295  0.01921614
+     20    H       0.08125177  0.06071211
+     21    H      -0.01348398  0.02354059
+     22    H       0.05483529  0.08376394
+     23    H       0.38111649  0.37816229
+     24    H       0.36880166  0.36094545
+     25    H       0.04080174  0.02917570
+     26    H       0.48963853  0.48397888
+Total Charge:     -0.00000000 -0.00000000
